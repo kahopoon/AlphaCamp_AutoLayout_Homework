@@ -19,7 +19,7 @@
 
 **練習三：** 實作一個排版妥當的表單(練習投影片最後一頁版型)
 
-**方向：**一樣使用stack view。左邊提示欄labels都塞進第一個stack view，labels設定大小（與之後的欄位一致），設定大小時要注意ui button 和 stack view 的constraint priority，設定stack view的elements spacing。然後做輸入欄位，方法和剛才一樣。最後再開一個stack view 把剛才兩個stack view 包裹，把這個stack view 設定vertical && horizontal in container。 這裡我輸入欄位的equal width都參照super view的大小相對設定multiplier 0.4 (太寬5s 會爆炸，太窄6+不高興)。最後是ui button，也是利用multiplier定義寬度，用stack view 包裹，設定elements spacing, horizontal in container, constraint buttom layout
+**方向：**一樣使用stack view。左邊提示欄labels都塞進第一個stack view，labels設定大小（與之後的欄位一致），設定大小時要注意ui button 和 stack view 的constraint priority，設定stack view的elements spacing。然後做輸入欄位，方法和剛才一樣。最後再開一個stack view 把剛才兩個stack view 包裹，把這個stack view 設定vertical && horizontal in container。 這裡我輸入欄位的equal width都參照super view的大小相對設定multiplier 0.4 (太寬5s 會爆炸，太窄6+不高興)。最後是ui button，也是利用multiplier定義寬度，用stack view 包裹，設定elements spacing, horizontal in container, constraint buttom layout，大概這樣。當然你不爽5s 顯示欄位底部與按鈕頂部空間太少可以再用stack view包裹。。。
 
 ![Alt text](/screenshot/exercise3_portrait.png?raw=true "portrait view")
 ![Alt text](/screenshot/exercise3_landscape.png?raw=true "landscape view")
