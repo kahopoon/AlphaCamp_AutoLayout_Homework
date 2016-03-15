@@ -9,10 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var image_p1: UIImageView!
+    @IBOutlet weak var image_p2: UIImageView!
+    @IBOutlet weak var image_p3: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        image_p1.layer.cornerRadius = 5
+        image_p2.layer.cornerRadius = 5
+        image_p3.layer.cornerRadius = 5
     }
 
     override func didReceiveMemoryWarning() {
