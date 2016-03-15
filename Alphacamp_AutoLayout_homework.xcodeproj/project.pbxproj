@@ -286,6 +286,7 @@
 				11D41BB31C96B9CC0083753A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
